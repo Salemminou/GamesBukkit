@@ -1,0 +1,59 @@
+name: Games
+main: net.caternity.games.GamesMain
+version: 1.0
+commands:
+   addPlayer:
+      description: This add a player to a team(default ArcSoft).
+      usage: /<command> [player] [teamname] [gametype]
+      permission: <plugin name>.addplayer
+      permission-message: You don't have <permission>
+   setTeamSpawn:
+      description: This set a spawn for the selected team.
+      usage: /<command> [teamname]
+      permission: <plugin name>.setteamspawn
+      permission-message: You don't have <permission>
+   setTeamMode:
+      description: This set the mode for the selected team.
+      usage: /<command> [teamname] [gamemode]
+      permission: <plugin name>.setteammode
+      permission-message: You don't have <permission>
+   setTeamType:
+      description: This set the type for the selected team.
+      usage: /<command> [teamname] [gametype]
+      permission: <plugin name>.setteamtype
+      permission-message: You don't have <permission>
+   setSpectatorSpawn:
+      description: This set the spawn for the spectators.
+      usage: /<command>
+      permission: <plugin name>.setspectatorspawn
+      permission-message: You don't have <permission>
+   rmPlayer:
+      description: This remove a player from the game.
+      usage: /<command> [player]
+      permission: <plugin name>.rmplayer
+      permission-message: You don't have <permission>
+   rmTeam:
+      description: This remove a team from the game.
+      usage: /<command> [team]
+      permission: <plugin name>.rmteam
+      permission-message: You don't have <permission>
+   gamesreset:
+      description: This reset the game.
+      usage: /<command>
+      permission: <plugin name>.reset
+      permission-message: You don't have <permission>
+   gamesreload:
+      description: This reload the settings.
+      usage: /<command>
+      permission: <plugin name>.reload
+      permission-message: You don't have <permission>
+   gamessave:
+      description: This save the settings.
+      usage: /<command>
+      permission: <plugin name>.reload
+      permission-message: You don't have <permission>
+   setlevel:
+      description: This command set the level of a player.
+      usage: /<command> [player] [level]
+      permission: <plugin name>.setlevel
+      permission-message: You don't have <permission>
