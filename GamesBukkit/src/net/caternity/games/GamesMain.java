@@ -20,7 +20,7 @@ public class GamesMain extends JavaPlugin implements Listener
 	static public Location spectatorLoc = null;
 	static public GamesMain plugin;
 	Logger log;
-	//Salut
+	//Salut ^
 	
 	public void onEnable(){
 		new PlayerListener(this);
